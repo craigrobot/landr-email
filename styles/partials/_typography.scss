@@ -1,0 +1,10 @@
+$font-primary: 'Roboto', sans-serif;
+
+.reg-text {
+    color: $text-light-grey;
+    font-size: 1.2rem;
+
+    &--signup {
+        margin-bottom: 2rem;
+    }
+}

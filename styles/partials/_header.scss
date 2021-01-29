@@ -1,0 +1,13 @@
+.header {
+    height: 6rem;
+
+    &__logo {
+        height: 4rem;
+    }
+}
+
+@include huge { 
+    .header {
+        height: 20rem;
+    }
+}

@@ -1,0 +1,14 @@
+.footer {
+    &__icons {
+        display: flex;
+        justify-content: flex-start;
+        margin: 3rem 0;
+    }
+
+    &__icon {
+        height: 1.2rem;
+        width: 1.2rem;
+        fill: $text-light-grey;
+        margin: 0 .5rem;
+    }
+}

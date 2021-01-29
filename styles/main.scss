@@ -1,0 +1,33 @@
+@import "./partials/breakpoints";
+@import "./partials/colors";
+@import "./partials/footer";
+@import "./partials/header";
+@import "./partials/quote";
+@import "./partials/buttons";
+@import "./partials/typography";
+
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+  margin: 1.6rem;
+  font-family: $font-primary;
+  font-weight: 400;
+  height: 100vh;
+  background-color: $background-blue;
+  line-height: 1.6;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+
+

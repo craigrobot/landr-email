@@ -1,0 +1,13 @@
+.btn {
+    background-color: $btn-blue;
+    border: none;
+    color: $text-light-grey;
+    font-size: 1rem;
+    padding: .9rem 1.5rem;
+    border-radius: 2px;
+    margin: 3rem 0 6rem;
+
+    &--red {
+        background-color:red;
+    }
+}
