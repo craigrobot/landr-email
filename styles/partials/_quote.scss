@@ -2,7 +2,6 @@
     border-bottom: $border-line;
 
     &__title {
-        color: #fff;
         font-size: 2rem;
         margin-bottom: 4rem;
     }
@@ -11,7 +10,6 @@
 
     &__card {
         display: flex;
-        background-color: $card-blue;
         padding: 1rem;
         margin: 1rem 0 2rem;
     }
@@ -24,7 +22,6 @@
     &__card-img {
         width: 5rem;
         border-radius: 50%;
-        display: block;
         margin-right: 1rem;
     }
 
@@ -36,19 +33,18 @@
     }
 
     &__card-job {
-        color: $text-light-grey;
         font-size: 1.2rem;
     }
 
     &__card-project {
-        color: $text-dark-grey;
         font-weight: 700;
         font-size: 1.2rem;
+        color: $text-dark-grey;
     }
 
     &__card-days {
-        color: $text-dark-grey;
         font-size: 1.2rem;
+        color: $text-dark-grey;
     }
 
     &__card-price-wrapper {
@@ -59,9 +55,9 @@
 
     &__card-price {
         padding: .5rem;
+        border-radius: 30px;
         color: $text-light-grey;
         background-color: $btn-blue;
-        border-radius: 30px;
     }
 
     // &__btn {

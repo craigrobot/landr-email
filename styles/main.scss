@@ -7,20 +7,6 @@
 @import "./partials/typography";
 
 
-html {
-    box-sizing: border-box;
-    font-size: 62.5%;
-}
-
-body {
-  margin: 1.6rem;
-  font-family: $font-primary;
-  font-weight: 400;
-  height: 100vh;
-  background-color: $background-blue;
-  line-height: 1.6;
-}
-
 *,
 *::before,
 *::after {
@@ -29,5 +15,56 @@ body {
     box-sizing: inherit;
 }
 
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    margin: 1.6rem;
+    font-family: $font-primary;
+    font-weight: 400;
+    height: 100vh;
+    line-height: 1.6;
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: $text-light-grey;
+  }
+
+  .header__logo {
+    background-color: $background-blue;
+    border-radius: 50%;
+  }
+
+  .reg-text {
+    background-color: $text-light-grey;
+    color: $background-blue;
+  }
+
+  .quote__card {
+    background-color: #e0e0e0;
+  }
+
+  .btn {
+    background-color: $btn-blue;
+  }
+
+  .footer__icon {
+    fill: $background-blue;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: $background-blue;
+    color: $text-light-grey;
+  }
+
+  .quote__card {
+    background-color: $card-blue;
+  }
+}
 
 

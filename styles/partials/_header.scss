@@ -6,8 +6,22 @@
     }
 }
 
+@include medium {
+    .header { 
+        height: 12rem;
+
+        &__logo {
+            height: 8rem;
+        }
+    }  
+}
+
 @include huge { 
     .header {
         height: 20rem;
+
+        &__logo {
+            height: 12rem;
+        }
     }
 }
